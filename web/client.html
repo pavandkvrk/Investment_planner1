@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>INVESTMENT PLANER</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="addplan.js"></script>
+        <script src="displayplans.js"></script>
+        <script src="logout.js"></script>
+        <style>
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: table-row-group;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+</style>
+    </head>
+    <body>
+        <h1 style="text-align:center; border-style: solid; border-color: yellowgreen;"> Investment Planner</h1>
+        <h2 style="text-align:center; border-style: solid; border-color: yellowgreen;"> CLIENT</h2>
+        <button type="button" class="button" onclick="logout()" align="right">LOG OUT</button>
+      
+        
+        
+  <div class="container">
+  <button type="button" class="button" onclick="plandisplay()">PLAN 1</button>
+  <button type="button" class="button" onclick="plandisplay1()">PLAN 2</button>
+  <button type="button" class="button" onclick="plandisplay2()">PLAN 3</button>
+  <button type="button" class="button" onclick="plandisplay3()">PLAN 4</button>
+  
+  <br>
+  <br>
+  <br>
+ <br>
+ <div class="form">      
+  <form>
+  PLAN NAME:<br>
+  <p id="demo1"> </p>
+  <br>
+  PLAN SHORT NAME:<br>
+  <p id="demo2"> </p>
+  <br>
+  PLAN LONG NAME:<br>
+   <p id="demo3"> </p>
+  <br>
+  OBJECTIVE:<br>
+   <p id="demo4"> </p>
+   <br>
+  SUMMARY:<br>
+   <p id="demo5"> </p>
+   <br>
+ 
+</form> 
+  </div>         
+ 
+  <button type="button" class="button" onclick="ap2()" > REQUEST NEW PLAN</button>
+  
+  
+</div>
+         
+ 
+
+
+    </body>
+</html>
